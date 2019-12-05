@@ -1,0 +1,26 @@
+<html>
+<title>Get Video Thumbnails</title>
+<link href="style.css" rel="stylesheet" />
+<body>
+  <div class="page">
+    <form id="getVideoForm">
+      <span class="selectVideoType">
+        <input type="radio" id="youtube" name="videoType" value="youtube" />
+        <label for="youtube">Youtbe</label>
+
+        <input type="radio" id="vimeo" name="videoType" value="vimeo" />
+        <label for="vimeo">Vimeo</label>
+      </span>
+
+      <input type="text" name="video" />
+      <input type="submit" value="Submit" disabled />
+    </form>
+
+    <div class="screenlog">
+      <p>output:</p>
+      <div class="inner"></div>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>

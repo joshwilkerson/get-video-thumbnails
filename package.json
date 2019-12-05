@@ -1,0 +1,11 @@
+{
+  "name": "get-video-thumbnails",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://joshwilkerson@github.com/joshwilkerson/get-video-thumbnails.git",
+  "author": "Josh Wilkerson <jgwilkerson@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.9.3"
+  }
+}
